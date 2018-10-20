@@ -58,11 +58,11 @@
 			children = (
 				5CB16913217BBE5C00980C94 /* AppDelegate.swift */,
 				5CB16915217BBE5C00980C94 /* ViewController.swift */,
+				5CB16925217BBF8A00980C94 /* PopTableViewController.swift */,
 				5CB16917217BBE5C00980C94 /* Main.storyboard */,
 				5CB1691A217BBE5D00980C94 /* Assets.xcassets */,
 				5CB1691C217BBE5D00980C94 /* LaunchScreen.storyboard */,
 				5CB1691F217BBE5D00980C94 /* Info.plist */,
-				5CB16925217BBF8A00980C94 /* PopTableViewController.swift */,
 			);
 			path = "PopOver List";
 			sourceTree = "<group>";
