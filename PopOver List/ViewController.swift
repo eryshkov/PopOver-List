@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         popOverVC?.delegate = self
         popOverVC?.sourceView = self.button
         popOverVC?.sourceRect = CGRect(x: self.button.bounds.midX, y: self.button.bounds.minY, width: 0, height: 0)
-        popVC.preferredContentSize = CGSize(width: 250, height: 250)
+//        popVC.preferredContentSize = CGSize(width: 250, height: 250)
         
         present(popVC, animated: true)
     }
