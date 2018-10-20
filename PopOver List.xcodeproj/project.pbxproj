@@ -12,6 +12,7 @@
 		5CB16919217BBE5C00980C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB16917217BBE5C00980C94 /* Main.storyboard */; };
 		5CB1691B217BBE5D00980C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1691A217BBE5D00980C94 /* Assets.xcassets */; };
 		5CB1691E217BBE5D00980C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1691C217BBE5D00980C94 /* LaunchScreen.storyboard */; };
+		5CB16926217BBF8A00980C94 /* PopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB16925217BBF8A00980C94 /* PopTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5CB1691A217BBE5D00980C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB1691D217BBE5D00980C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB1691F217BBE5D00980C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB16925217BBF8A00980C94 /* PopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5CB1691A217BBE5D00980C94 /* Assets.xcassets */,
 				5CB1691C217BBE5D00980C94 /* LaunchScreen.storyboard */,
 				5CB1691F217BBE5D00980C94 /* Info.plist */,
+				5CB16925217BBF8A00980C94 /* PopTableViewController.swift */,
 			);
 			path = "PopOver List";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				5CB16916217BBE5C00980C94 /* ViewController.swift in Sources */,
 				5CB16914217BBE5C00980C94 /* AppDelegate.swift in Sources */,
+				5CB16926217BBF8A00980C94 /* PopTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +286,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "PopOver List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.PopOver-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +305,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "PopOver List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.PopOver-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
